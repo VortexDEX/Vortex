@@ -1,0 +1,79 @@
+{
+  "name": "Vortex DEX",
+  "short_name": "Vortex",
+  "description": "A modern decentralized exchange platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0c0c",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512", 
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png", 
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Swap Tokens",
+      "short_name": "Swap",
+      "description": "Quickly swap tokens",
+      "url": "/swap",
+      "icons": [
+        {
+          "src": "/icon-swap.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Pools",
+      "short_name": "Pools", 
+      "description": "Browse liquidity pools",
+      "url": "/pools",
+      "icons": [
+        {
+          "src": "/icon-pools.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "short_name": "Portfolio",
+      "description": "View your portfolio",
+      "url": "/portfolio", 
+      "icons": [
+        {
+          "src": "/icon-portfolio.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+} 
